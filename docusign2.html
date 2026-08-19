@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Sourcing Inquiry</title>
+</head>
+<body style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; background-color: #f9f9f9; padding: 30px; margin: 0; color: #333333;-webkit-font-smoothing: antialiased;">
+
+    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; background-color: #ffffff; border: 1px solid #e6e6e6; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.02);">
+        <tr>
+            <td style="padding: 40px;">
+                <!-- Salutation utilizing parsed metadata -->
+                <p style="font-size: 16px; line-height: 1.6; margin-top: 0; margin-bottom: 20px;">
+                    Hi {{FIRST_NAME}},
+                </p>
+                
+                <!-- Main Body Text -->
+                <p style="font-size: 16px; line-height: 1.6; margin-bottom: 16px;">
+                    This is Tomoki Hatayama from Ima Automation Group in Italy. Together with my Director Joelle, we are responsible for sourcing various products for more than 600 companies in Europe, Africa and America.
+                </p>
+
+                <p style="font-size: 16px; line-height: 1.6; margin-bottom: 16px;">
+                    We have seen your product on your market at <strong>{{COMPANY_NAME}}</strong> product inventory and would like to obtain more information about the different products you offer. Your current catalogue will be much appreciated for our review in order to make the right selection.
+                </p>
+
+                <p style="font-size: 16px; line-height: 1.6; margin-bottom: 16px;">
+                    Please let us know your availability to schedule a Teams meeting in the coming days to discuss further.
+                </p>
+
+                <!-- Newly Added Website Text Integration -->
+                <p style="font-size: 16px; line-height: 1.6; margin-bottom: 30px;">
+                    Please feel free to contact us for more information or visit our website at <a href="{{LINK}}" style="color: #0056b3; text-decoration: underline;">{{LINK}}</a>.
+                </p>
+
+                <!-- Sign-off -->
+                <p style="font-size: 16px; line-height: 1.6; margin-bottom: 0;">
+                    Thank you, and we look forward to hearing from you.
+                </p>
+                
+                <p style="font-size: 16px; line-height: 1.6; margin-top: 25px; margin-bottom: 0; color: #555555;">
+                    Best regards,<br>
+                    <strong>Tomoki Hatayama</strong><br>
+                    Sourcing Team | Ima Automation Group
+                </p>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
